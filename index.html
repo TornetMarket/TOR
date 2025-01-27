@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolas - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nicolas Franco">Nicolas Franco</h1>
+
+          <p class="title">Cyber Security Specialist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tornetmail@gmail.com" class="contact-link">tornetmail@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12108911639" class="contact-link">+1 (210) 891-1639</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-09-13">September 13, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sillicon Valley, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-snapchat"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a 19-year-old high school graduate, I bring a deep expertise in computer systems and technology, 
+            complemented by hands-on experience as a Software Developer, Network Engineer, Stock Investor, 
+            and Business Manager. My technical acumen is matched by a proven ability to navigate complex projects
+            and adapt to dynamic environments. I excel in leveraging my interpersonal and communication skills
+            to collaborate effectively with teams, lead initiatives, and drive results. With a strong foundation
+            in business management and marketing, I am well-equipped to contribute to innovative solutions and
+            strategic growth in any organization.
+          </p>
+
+          <p>
+            I am a Full Stack Developer and cybersecurity specialist, dedicated to creating secure, custom 
+            software solutions tailored to meet unique business needs. From building user-friendly, visually
+            striking websites to developing advanced applications, I ensure every project is optimized for
+            performance and fortified against modern threats. I’ve collaborated with leading brands to deliver
+            innovative, secure platforms while providing expert technical advice. My mission is to combine
+            creativity, functionality, and security to deliver exceptional digital experiences and custom
+            software solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Cutting-edge, high-quality designs crafted with professional expertise.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Professional-grade website development with exceptional quality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Custom hacking apps expertly developed for iOS and Android platforms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I create stunning 4K drone shots and custom-edited visuals.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>David Carter</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I can't thank Nico enough for their incredible technical advice and dedication to
+                    service. They went above and beyond to solve my challenges and provided innovative solutions
+                    that truly exceeded my expectations. I highly recommend their expertise to anyone looking
+                    for top-notch tech support.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica Anderson</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Nico was a phenomenal experience. Their coding skills are unmatched,
+                    and their collaborative approach made the process smooth and efficient.
+                    I learned so much from them and look forward to future projects together
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kelley Logss</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The custom software Nicolas developed for my business was an absolute game-changer.
+                    It was tailored perfectly to our needs, secure, and ran seamlessly. I’m amazed by
+                    their ability to bring my vision to life. Thank you for your hard work and dedication!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a new investor, I was overwhelmed with information, but Nicos's expert guidance
+                    changed everything. Their stock advice was spot on and helped me make confident,
+                    profitable decisions. They really know the market inside out, and I’m so grateful
+                    for their support
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Nicolas was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Latino College Prepatory Academy</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Four years of High School. Graduated with a diploma. A.P classes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DeVry University</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Cyber Security & Cloud Computing. ( CompTIA, CompTIA Secuirty+, Certified Ethical Hacker, Robotics+)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Harvard University</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                CS50 - Computer Science
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Network Vigilance, Cyber Security - Founder & CEO</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                I oversee a team of administrators who manage provide support related to various
+                technology concerns. Our services range from cybersecurity consultation to technical
+                support, and more.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming - Full Stack Developer</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                As a developer, companies often reach out to me to create user interfaces
+                that are efficient, intuitive, and interactive. I specialize in creating
+                apps that make daily life easier, as well as those that facilitate quick
+                communications within small teams.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cisco, Milpitas - Soc Analyst, Developer</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                 I started at Cisco with just an internship. At first i was just a admin assigned a electic card to mointor
+                 and drive around buildings. I then applied and took the position as a soc analyst afterworking there after 
+                 some time. This position required me going from buiding to building to set up new ip and network connections
+                 and re arranging lan cables to maintain secuirty cameras and secuirty work.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Best Buy, Milpitas - Geek Squad</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                As a Geek Squad agent i was assigened a company van. I would be sent out
+                to local zipcodes to install tech and appliances.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Michael Kors, Milpitas - Sales Associate/ Cashier</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                As a Sales Associate, I have been responsible for assisting customers, 
+                managing inventory, and maintaining the store's visual standards. I have
+                consistently exceeded sales targets and received positive feedback from
+                both customers and management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Louis Vuitton, Santana Row - Sales Associate</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                As a Sales Associate, I have been responsible for assisting customers, 
+                managing inventory, and maintaining the store's visual standards. I have
+                consistently exceeded sales targets and received positive feedback from
+                both customers and management.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack Developer</h5>
+                <data value="98">98%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Day Trading Stocks</h5>
+                <data value="98">98%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hacking</h5>
+                <data value="99">99%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 99%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Technology</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Top Sellers</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Lifestyle</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Top Sellers</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Lifestyle</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="top sellers">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/onikit.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Onikit</h3>
+
+                <p class="project-category">Hacking Rootkit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/phantomminer.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Phantom Miner</h3>
+
+                <p class="project-category">Crypto Miner</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="top sellers">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/solesniper.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sole Sniper</h3>
+
+                <p class="project-category">Shoe Scalper</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/reapertool.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Reaper Tool</h3>
+
+                <p class="project-category">Hacking Kit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tornetlogin.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tornet Login</h3>
+
+                <p class="project-category">Login Credential</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="top sellers">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/fbilookup.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">F.B.I Lookup</h3>
+
+                <p class="project-category">Recon Tool</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/imperiumtool.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Imperium Tool</h3>
+
+                <p class="project-category">DDoS Dashboard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="lifestyle">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/stockscrypto.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock Market</h3>
+
+                <p class="project-category">Compelted Milestone</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tornetsite.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tornet Market</h3>
+
+                <p class="project-category">Anonymous Marketplace</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="A Day in the Life of a Hacker" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Cybersecurity</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-26">Jan 26, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">A Day in the Life of a Hacker</h3>
+        
+                  <p class="blog-text">
+                    In this post, I dive into the daily routine of a professional hacker, from coding to breaking down vulnerabilities and protecting the digital world from cyber threats.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Coding for Cybersecurity: Tools of the Trade" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Cybersecurity</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-27">Jan 27, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">Coding for Cybersecurity: Tools of the Trade</h3>
+        
+                  <p class="blog-text">
+                    From custom scripts to advanced software, I break down the essential tools I use every day to stay ahead in the world of cybersecurity and ethical hacking.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Building Secure Systems: A Developer’s Approach" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Development</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-28">Jan 28, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">Building Secure Systems: A Developer’s Approach</h3>
+        
+                  <p class="blog-text">
+                    Learn how I approach building secure applications from the ground up, ensuring they are resistant to attacks and vulnerabilities in an ever-evolving tech landscape.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="Stock Market and Cybersecurity: A Digital Threat Landscape" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Finance</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-29">Jan 29, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">Stock Market and Cybersecurity: A Digital Threat Landscape</h3>
+        
+                  <p class="blog-text">
+                    Discover how cybersecurity threats intersect with the stock market and the strategies I use to protect my investments from both financial and digital risks.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="Custom Software for Cybersecurity: Beyond the Basics" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Cybersecurity</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-30">Jan 30, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">Custom Software for Cybersecurity: Beyond the Basics</h3>
+        
+                  <p class="blog-text">
+                    Explore the process of developing custom software tailored for cybersecurity purposes, from automated penetration testing tools to security monitoring systems.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+            <li class="blog-post-item">
+              <a href="#">
+        
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Collaborating on Code: What It’s Like to Work with Fellow Hackers" loading="lazy">
+                </figure>
+        
+                <div class="blog-content">
+        
+                  <div class="blog-meta">
+                    <p class="blog-category">Collaboration</p>
+        
+                    <span class="dot"></span>
+        
+                    <time datetime="2025-01-31">Jan 31, 2025</time>
+                  </div>
+        
+                  <h3 class="h3 blog-item-title">Collaborating on Code: What It’s Like to Work with Fellow Hackers</h3>
+        
+                  <p class="blog-text">
+                    Collaboration is key in cybersecurity. Here’s what I’ve learned about working with fellow hackers and programmers to create more secure and efficient systems.
+                  </p>
+        
+                </div>
+        
+              </a>
+            </li>
+        
+          </ul>
+        
+        </section>        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.763347672057!2d-121.83212608468161!3d37.3898188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb8fd063568b9%3A0xd8ae6f72a337ba27!2s5485%20Sierra%20Rd%2C%20San%20Jose%2C%20CA%2095132!5e0!3m2!1sen!2sbd!4v1647609130429!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        
+               
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
